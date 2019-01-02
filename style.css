@@ -1,0 +1,43 @@
+
+body {
+  background: linear-gradient(black, #5C7689) no-repeat;
+  background-position: contain;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+canvas {
+	background: url('./images/background-imgs/city-of-dawn-blue.jpg') no-repeat ;
+  background-position: left;
+  background-size: cover; 
+	border: 1px solid;
+  cursor: url('./images/focus.png') 12 12, auto;
+}
+
+button {
+  cursor: url('./images/focus.png') 12 12, auto;
+  color: #2E9DD1;
+  background: #000;
+  border: 1px solid #2E9DD1;
+  padding: 7px;
+  margin: 10px 0;
+  width: 200px;
+  font-size: 18pt;
+  transition: 0.5s ease;
+}
+
+button:disabled {
+  color: #AAA;
+  background: #333;
+}
+
+.button-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game {
+  margin: 20px;
+}
