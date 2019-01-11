@@ -1,14 +1,7 @@
-const { assert } = require('chai');
+import {assert} from "chai";
+import {Meteors} from "../lib/Meteors";
 
 global.Audio = class {};
-
-const Base = require('../lib/Base.js');
-const Cannon = require('../lib/Cannon.js');
-const Game = require('../lib/Game.js');
-const GameEntity = require('../lib/GameEntity.js');
-const Missile = require('../lib/Missile.js'); 
-const Meteors = require('../lib/Meteors.js');
-const Explosion = require('../lib/Explosion.js'); 
 
 describe('meteor unit testing', () => {
 

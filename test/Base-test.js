@@ -1,4 +1,5 @@
-const { assert } = require('chai');
+import {assert} from "chai";
+import {Base} from "../lib/Base";
 
 global.Audio = class {};
 
@@ -8,13 +9,6 @@ global.document = {
 	getElementById: function() {}
 };
 
-const Base = require('../lib/Base.js');
-const Cannon = require('../lib/Cannon.js');
-const Game = require('../lib/Game.js');
-const GameEntity = require('../lib/GameEntity.js');
-const Missile = require('../lib/Missile.js'); 
-const Meteors = require('../lib/Meteors.js');
-const Explosion = require('../lib/Explosion.js'); 
 
 describe('base unit testing', () => {
 
